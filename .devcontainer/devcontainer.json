@@ -9,17 +9,17 @@
     "forwardPorts": [5000],
     "postCreateCommand": "bash scripts/install-dev-tools.sh",
     "customizations": {
-	    "vscode": {
-		    "extensions": [
-			    "streetsidesoftware.code-spell-checker",
-			    "1YiB.nodejs-bundle"
-		    ],
-		    "settings": {
-			    "editor.frontSize": 24,
-			    "terminal.integrated.fontSize": 16,
-			    "terminal.integrated.localEchoStyle": "dim"
-			}
+	"vscode": {
+		"extensions": [
+			"streetsidesoftware.code-spell-checker",
+			"1YiB.nodejs-bundle"
+		],
+		"settings": {
+			"editor.frontSize": 24,
+			"terminal.integrated.fontSize": 16,
+			"terminal.integrated.localEchoStyle": "dim"
 		}
+	}
     },
     "hostRequirements": {
     	"cpus": 2,
