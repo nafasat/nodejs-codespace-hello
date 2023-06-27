@@ -1,0 +1,20 @@
+{
+    "image":"mcr.microsoft.com/devcontainers/javascript-node:18",
+    "features": {
+      "node": {
+        "version": "lts",
+        "nodeGypDependencies": true
+      }
+    },
+    "forwardPorts": [5000],
+    "postCreateCommand": "bash -i -c 'nvm install --lts'",
+    "customizations": {
+	    "vscode": {
+		    "settings": {
+			    "editor.frontSize": 24,
+			    "terminal.integrated.fontSize": 16,
+			    "terminal.integrated.localEchoStyle": "dim"
+			}
+		}
+	}
+}
