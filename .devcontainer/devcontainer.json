@@ -20,5 +20,9 @@
 			    "terminal.integrated.localEchoStyle": "dim"
 			}
 		}
-	}
+    },
+    "hostRequirements": {
+    	"cpus": 2,
+    	"memory": 4
+    }
 }
