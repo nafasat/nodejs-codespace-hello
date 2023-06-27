@@ -8,6 +8,11 @@
     },
     "forwardPorts": [5000],
     "postCreateCommand": "bash scripts/install-dev-tools.sh",
+    "hostRequirements": {
+    	"cpus": 2,
+    	"memory": "4gb",
+	"storage":"32gb"
+    },	    
     "customizations": {
 	"vscode": {
 		"extensions": [
@@ -20,10 +25,5 @@
 			"terminal.integrated.localEchoStyle": "dim"
 		}
 	}
-    },
-    "hostRequirements": {
-    	"cpus": 2,
-    	"memory": "4gb",
-	"storage":"32gb"
     }
 }
