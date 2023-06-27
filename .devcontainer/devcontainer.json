@@ -10,6 +10,10 @@
     "postCreateCommand": "bash -i -c 'nvm install --lts'",
     "customizations": {
 	    "vscode": {
+		    "extensions": [
+			    "streetsidesoftware.code-spell-checker",
+			    "1YiB.nodejs-bundle"
+		    ],
 		    "settings": {
 			    "editor.frontSize": 24,
 			    "terminal.integrated.fontSize": 16,
