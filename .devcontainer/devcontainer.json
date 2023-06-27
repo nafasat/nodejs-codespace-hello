@@ -7,7 +7,7 @@
       }
     },
     "forwardPorts": [5000],
-    "postCreateCommand": "bash -i -c 'nvm install --lts'",
+    "postCreateCommand": "nvm install --lts && npm init -y && npm update",
     "customizations": {
 	    "vscode": {
 		    "extensions": [
