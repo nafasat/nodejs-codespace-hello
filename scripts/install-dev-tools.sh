@@ -1,3 +1,3 @@
 nvm install --lts
-npm init
+npm init -y
 npm update
